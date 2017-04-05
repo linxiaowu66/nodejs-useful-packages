@@ -36,7 +36,7 @@ Nodejs开发多了的时候，就会发现有好多常用的软件包值得推�
 * [ioredis](https://github.com/luin/ioredis): 一款功能齐全性能优越的redis客户端
 * [mongoose](https://github.com/Automattic/mongoose): Mongoose是一款[MongoDB](https://www.mongodb.org/)对象模型工具，被设计成运行在一个异步的环境下。
 * [connect-redis](https://github.com/tj/connect-redis): 这是一款Redis的session存储器。
-
+* [Sequelize](https://github.com/sequelize/sequelize): Sequelize是一个基于promise的关系型数据库ORM框架，这个库完全采用JavaScript开发并且能够用在Node.JS环境中，易于使用，支持`Postgres`, `MySQL`, `SQLite` 和 `Microsoft SQL Server`数据库(感谢[CW木子](https://juejin.im/user/57a358dc8ac247005f16735b)提供)
 ### 6、辅助
 * [Chance](https://github.com/chancejs/chancejs): Javascript的随机生成器辅助工具
 * [js-to-java](https://github.com/node-modules/js-to-java): 提供一种简单地方式去包裹JS对象为java对象。在[hessian.js](https://github.com/node-modules/hessian.js)我们需要使用js对象来写java的类名，所以我们就使用这个库来自动编码，将js的对象转为java的对象。
