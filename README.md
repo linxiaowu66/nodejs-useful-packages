@@ -41,11 +41,11 @@ Nodejs开发多了的时候，就会发现有好多常用的软件包值得推�
 * [Chance](https://github.com/chancejs/chancejs): Javascript的随机生成器辅助工具
 * [js-to-java](https://github.com/node-modules/js-to-java): 提供一种简单地方式去包裹JS对象为java对象。在[hessian.js](https://github.com/node-modules/hessian.js)我们需要使用js对象来写java的类名，所以我们就使用这个库来自动编码，将js的对象转为java的对象。
 * [xml2js](https://github.com/Leonidas-from-XIV/node-xml2js): 一款可以将XML文件转为JS对象的转换器
-* [colors]()
+* [colors](https://github.com/Marak/colors.js): 让打印的字体颜色更加丰富多彩
 * [joi](https://github.com/hapijs/joi): 对象语法描述语言以及对象校验，可以用于定义nodejs的路由传参的对象内部成员的类型并做校验
 * [serialize-javascript](https://github.com/yahoo/serialize-javascript): 序列化JS为JSON的超子集，包含正则表达式以及函数都会被JSON掉。
 * [js-yaml](https://github.com/nodeca/js-yaml): YAML文件的解析器。
-* [uuid]()
+* [uuid](https://github.com/kelektiv/node-uuid): 可以快速生成符合[RFC4122](http://www.ietf.org/rfc/rfc4122.txt)标准的UUID库。常用于追溯nodejs下的请求。
 * [session-file-store](https://github.com/valery-barysok/session-file-store): 能够存储session到指定文件中，可以用在Express和Koa中
 *[node-fs-extra](https://github.com/jprichardson/node-fs-extra): `fs-extra`添加了原生`fs`模块中没有的文件系统方法，包括`mkdirp`， `rimraf`， 和`ncp`等
 
