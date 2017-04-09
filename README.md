@@ -6,6 +6,7 @@ Nodejs开发多了的时候，就会发现有好多常用的软件包值得推�
 * [pino](https://github.com/pinojs/pino): 性能极好的nodejs日志器。它还包括一个shell界面以更好地打印它的日志文件
 * [winston](https://github.com/winstonjs/winston): 一款多传送异步日志库。Winston被设计成一款简单并且通用的日志库以支持多重传送。传送指的是你日志存储的设备。一个winston日志器的实例可以配置成多个日志等级使用不同的传送。比如你的错误日志可能需要存储到远程存储器(比如数据库)，但是其他的日志等级都保存到本地文件或者直接输出到控制台
 * [winston-daily-rotate-file](https://github.com/winstonjs/winston-daily-rotate-file): 配合winston使用，能够每天记录日志到循环的文件中去。
+* [sentry](https://github.com/getsentry/sentry): Sentry 是一个实时的事件日志和聚合平台，基于 Django 构建。Sentry 可以帮助你将 Python 程序的所有 exception 自动记录下来，然后在一个好用的 UI 上呈现和搜索。处理 exception 是每个程序的必要部分，所以 Sentry 也几乎可以说是所有项目的必备组件。
 
 ### 2、基础包
 * [lodash](https://github.com/lodash/lodash): 一款JS库，封装了很多有用的JS API
