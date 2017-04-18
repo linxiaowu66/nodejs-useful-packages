@@ -48,7 +48,8 @@ Nodejs开发多了的时候，就会发现有好多常用的软件包值得推�
 * [js-yaml](https://github.com/nodeca/js-yaml): YAML文件的解析器。
 * [uuid](https://github.com/kelektiv/node-uuid): 可以快速生成符合[RFC4122](http://www.ietf.org/rfc/rfc4122.txt)标准的UUID库。常用于追溯nodejs下的请求。
 * [session-file-store](https://github.com/valery-barysok/session-file-store): 能够存储session到指定文件中，可以用在Express和Koa中
-*[node-fs-extra](https://github.com/jprichardson/node-fs-extra): `fs-extra`添加了原生`fs`模块中没有的文件系统方法，包括`mkdirp`， `rimraf`， 和`ncp`等
+* [node-fs-extra](https://github.com/jprichardson/node-fs-extra): `fs-extra`添加了原生`fs`模块中没有的文件系统方法，包括`mkdirp`， `rimraf`， 和`ncp`等
+* [node-glob](https://github.com/isaacs/node-glob): node的glob模块允许你使用*等符号, 来写一个glob规则,像在shell里一样,获取匹配对应规则的文件,这个glob工具基于javascript.它使用了 minimatch 库来进行匹配
 
 ### 7、HTTP客户端
 * [axios](https://github.com/mzabriskie/axios)：一款基于Promise API 的HTTP客户端
