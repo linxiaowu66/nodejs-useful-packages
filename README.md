@@ -38,6 +38,7 @@ Nodejs开发多了的时候，就会发现有好多常用的软件包值得推�
 * [mongoose](https://github.com/Automattic/mongoose): Mongoose是一款[MongoDB](https://www.mongodb.org/)对象模型工具，被设计成运行在一个异步的环境下。
 * [connect-redis](https://github.com/tj/connect-redis): 这是一款Redis的session存储器。
 * [Sequelize](https://github.com/sequelize/sequelize): Sequelize是一个基于promise的关系型数据库ORM框架，这个库完全采用JavaScript开发并且能够用在Node.JS环境中，易于使用，支持`Postgres`, `MySQL`, `SQLite` 和 `Microsoft SQL Server`数据库(感谢[CW木子](https://juejin.im/user/57a358dc8ac247005f16735b)提供)
+
 ### 6、辅助
 * [Chance](https://github.com/chancejs/chancejs): Javascript的随机生成器辅助工具
 * [js-to-java](https://github.com/node-modules/js-to-java): 提供一种简单地方式去包裹JS对象为java对象。在[hessian.js](https://github.com/node-modules/hessian.js)我们需要使用js对象来写java的类名，所以我们就使用这个库来自动编码，将js的对象转为java的对象。
@@ -50,6 +51,8 @@ Nodejs开发多了的时候，就会发现有好多常用的软件包值得推�
 * [session-file-store](https://github.com/valery-barysok/session-file-store): 能够存储session到指定文件中，可以用在Express和Koa中
 * [node-fs-extra](https://github.com/jprichardson/node-fs-extra): `fs-extra`添加了原生`fs`模块中没有的文件系统方法，包括`mkdirp`， `rimraf`， 和`ncp`等
 * [node-glob](https://github.com/isaacs/node-glob): node的glob模块允许你使用*等符号, 来写一个glob规则,像在shell里一样,获取匹配对应规则的文件,这个glob工具基于javascript.它使用了 minimatch 库来进行匹配
+* [reflect-metadata](https://github.com/rbuckton/reflect-metadata): 可以使用反射和修饰器的方式为你的类和方法注入元数据，并操作元数据。
+
 
 ### 7、HTTP客户端
 * [axios](https://github.com/mzabriskie/axios)：一款基于Promise API 的HTTP客户端
@@ -61,4 +64,4 @@ Nodejs开发多了的时候，就会发现有好多常用的软件包值得推�
 
 
 
-  
+
