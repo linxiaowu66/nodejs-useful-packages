@@ -14,8 +14,9 @@ Nodejs开发多了的时候，就会发现有好多常用的软件包值得推�
 * [moment](https://github.com/moment/moment): 一个轻量级的JS日期库，用于分析、校验、操作和格式化日期
 * [chokidar](https://github.com/paulmillr/chokidar): 一款软件包优雅地封装了Nodejs的`fs.watch` / `fs.watchFile` / `fsevents`方法
 * [bluebird](https://github.com/petkaantonov/bluebird): bluebird是一个功能齐全的promise库, 它专注于创新的特性和性能
-
-
+* [through2](https://github.com/rvagg/through2): 一款对Node streams.Transform (Streams2)封装的软件包，方便创建transform流。
+* [split2](https://github.com/mcollina/split2): 可以打断stream然后重组，这样每一行都是一个chunk。
+* [readable-stream](https://github.com/nodejs/readable-stream): 该包是NodeCore的Stream2和Stream3的镜像包实现。背景知识：[Why I don't use Node's core 'stream' module](https://r.va.gg/2014/06/why-i-dont-use-nodes-core-stream-module.html)
 ### 3、Express
 * [express-session](https://github.com/expressjs/session): Express下session中间件
 * [multer](https://github.com/expressjs/multer): Multer 是一个 node.js 中间件，用于处理 multipart/form-data 类型的表单数据, 它主要用于上传文件. 它是写在 busboy 之上非常高效。**注意: Multer 不会处理任何非 multipart/form-data 类型的表单数据.**
@@ -40,6 +41,7 @@ Nodejs开发多了的时候，就会发现有好多常用的软件包值得推�
 * [connect-redis](https://github.com/tj/connect-redis): 这是一款Redis的session存储器。
 * [Sequelize](https://github.com/sequelize/sequelize): Sequelize是一个基于promise的关系型数据库ORM框架，这个库完全采用JavaScript开发并且能够用在Node.JS环境中，易于使用，支持`Postgres`, `MySQL`, `SQLite` 和 `Microsoft SQL Server`数据库(感谢[CW木子](https://juejin.im/user/57a358dc8ac247005f16735b)提供)
 * [lru-cache](https://github.com/isaacs/node-lru-cache): 一款可以删除最近使用过的条目的cache工具包。
+* [levelup](https://github.com/level/levelup): 这是一款简单的key-value存储器。由Google开发。
 
 ### 6、辅助
 * [Chance](https://github.com/chancejs/chancejs): Javascript的随机生成器辅助工具
