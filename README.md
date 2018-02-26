@@ -9,6 +9,7 @@ Nodejs开发多了的时候，就会发现有好多常用的软件包值得推�
 * [sentry](https://github.com/getsentry/sentry): Sentry 是一个实时的事件日志和聚合平台，基于 Django 构建。Sentry 可以帮助你将各种主流语言的所有 exception 自动记录下来，然后在一个好用的 UI 上呈现和搜索。处理 exception 是每个程序的必要部分，所以 Sentry 也几乎可以说是所有项目的必备组件。
 
 ### 2、基础包
+
 * [lodash](https://github.com/lodash/lodash): 一款JS库，封装了很多有用的JS API
 * [co](https://github.com/tj/co): 是一个能够接受一个generator，并且自动执行generator内部的逻辑的软件库。
 * [moment](https://github.com/moment/moment): 一个轻量级的JS日期库，用于分析、校验、操作和格式化日期
@@ -17,7 +18,12 @@ Nodejs开发多了的时候，就会发现有好多常用的软件包值得推�
 * [through2](https://github.com/rvagg/through2): 一款对Node streams.Transform (Streams2)封装的软件包，方便创建transform流。
 * [split2](https://github.com/mcollina/split2): 可以打断stream然后重组，这样每一行都是一个chunk。
 * [readable-stream](https://github.com/nodejs/readable-stream): 该包是NodeCore的Stream2和Stream3的镜像包实现。背景知识：[Why I don't use Node's core 'stream' module](https://r.va.gg/2014/06/why-i-dont-use-nodes-core-stream-module.html)
+* [path-to-regexp](https://github.com/pillarjs/path-to-regexp): 该工具可以将诸如`/user/:name`的路径字符串转换为正则表达式
+* [request-ip](https://github.com/pbojinov/request-ip): 该nodejs包可以获取nodejs服务器中一条请求的IP地址
+
+
 ### 3、Express
+
 * [express-session](https://github.com/expressjs/session): Express下session中间件
 * [multer](https://github.com/expressjs/multer): Multer 是一个 node.js 中间件，用于处理 multipart/form-data 类型的表单数据, 它主要用于上传文件. 它是写在 busboy 之上非常高效。**注意: Multer 不会处理任何非 multipart/form-data 类型的表单数据.**
 * [morgan](https://github.com/expressjs/morgan): Nodejs下HTTP请求日志中间件
@@ -26,6 +32,8 @@ Nodejs开发多了的时候，就会发现有好多常用的软件包值得推�
 * [cookie-parser](https://github.com/expressjs/cookie-parser): cookie分析中间件
 * [serve-favicon](https://github.com/expressjs/serve-favicon): favicon显示中间件
 * [Helmet](https://github.com/helmetjs/helmet): Helmet可以通过设置各种头部来让你的Express服务器更加安全，抵御大部分的攻击。
+* [cors](https://github.com/expressjs/cors): express的CORS中间件
+* [express-rate-limit](https://github.com/nfriedly/express-rate-limit): Express基本的限速中间件。**注意这个中间件默认不能和别的进程/服务器共享状态，如果需要更加健壮的解决方案，推荐添加[Redis Store](https://github.com/nfriedly/express-rate-limit/blob/HEAD/%5BRedis%5D(http:/redis.io/)-backed%20store,%20more%20suitable%20for%20large%20or%20demanding%20deployments.)。或者使用[strict-rate-limiter](https://www.npmjs.com/package/strict-rate-limiter),[express-brute](https://www.npmjs.com/package/express-brute),[rate-limiter](https://www.npmjs.com/package/express-limiter)**
 
 ### 4、Koa
 * [koa-bodyparser](https://github.com/koajs/bodyparser): Koa的报文body分析中间件，支持`json`、`form `、`text`类型的Body
@@ -40,7 +48,7 @@ Nodejs开发多了的时候，就会发现有好多常用的软件包值得推�
 * [mongoose](https://github.com/Automattic/mongoose): Mongoose是一款[MongoDB](https://www.mongodb.org/)对象模型工具，被设计成运行在一个异步的环境下。
 * [connect-redis](https://github.com/tj/connect-redis): 这是一款Redis的session存储器。
 * [Sequelize](https://github.com/sequelize/sequelize): Sequelize是一个基于promise的关系型数据库ORM框架，这个库完全采用JavaScript开发并且能够用在Node.JS环境中，易于使用，支持`Postgres`, `MySQL`, `SQLite` 和 `Microsoft SQL Server`数据库(感谢[CW木子](https://juejin.im/user/57a358dc8ac247005f16735b)提供)
-* [lru-cache](https://github.com/isaacs/node-lru-cache): 一款可以删除最近使用过的条目的cache工具包。
+* [lru-cache](https://github.com/isaacs/node-lru-cache): 一款可以快速删除最近使用过的条目的cache工具包(LRU Cache是一个Cache置换算法，含义是“最近最少使用”，当Cache满（没有空闲的cache块）时，把满足“最近最少使用”的数据从Cache中置换出去，并且保证Cache中第一个数据是最近刚刚访问的。由“局部性原理”，这样的数据更有可能被接下来的程序访问)。
 * [levelup](https://github.com/level/levelup): 这是一款简单的key-value存储器。由Google开发。
 
 ### 6、辅助
