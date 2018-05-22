@@ -68,6 +68,21 @@ Nodejs开发多了的时候，就会发现有好多常用的软件包值得推�
 * [concurrently](https://github.com/kimmobrunfeldt/concurrently): 一款可以让你同时运行多个命令的工具包
 * [cpx](https://github.com/mysticatea/cpx): 一款可以使用通配符复制文件并且能够监控文件改动的工具包
 * [Husky](https://github.com/typicode/husky): ghooks的升级版，可以为你的git添加各种钩子。
+* [minimist](https://github.com/substack/minimist/): 该工具包用来解析命令行参数，比如会把下面的命令解析成如下样子：
+```
+$ node example/parse.js -x 3 -y 4 -n5 -abc --beep=boop foo bar baz
+{ _: [ 'foo', 'bar', 'baz' ],
+  x: 3,
+  y: 4,
+  n: 5,
+  a: true,
+  b: true,
+  c: true,
+  beep: 'boop' }
+```
+* [yeast](https://github.com/unshiftio/yeast): 该工具包用来生成一个唯一的ID，与uuid不大一样。socket.io使用它来将时间戳生成唯一的字符串。
+* [rc](https://github.com/dominictarr/rc): 该工具包可以为你的项目加载对应的配置，如果按照他们的规则来的话。查找比如eslintrc这种类似的文件
+
 
 ### 7、HTTP客户端
 * [axios](https://github.com/mzabriskie/axios)：一款基于Promise API 的HTTP客户端
