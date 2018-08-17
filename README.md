@@ -82,7 +82,7 @@ $ node example/parse.js -x 3 -y 4 -n5 -abc --beep=boop foo bar baz
 ```
 * [yeast](https://github.com/unshiftio/yeast): 该工具包用来生成一个唯一的ID，与uuid不大一样。socket.io使用它来将时间戳生成唯一的字符串。
 * [rc](https://github.com/dominictarr/rc): 该工具包可以为你的项目加载对应的配置，如果按照他们的规则来的话。查找比如eslintrc这种类似的文件
-
+* [jsonata](https://github.com/jsonata-js/jsonata): 该工具有点类似于lodash.get的方法，可以帮你拿到在对象里面指定路径的值
 
 ### 7、HTTP客户端
 * [axios](https://github.com/mzabriskie/axios)：一款基于Promise API 的HTTP客户端
