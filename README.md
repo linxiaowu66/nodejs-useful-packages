@@ -11,8 +11,10 @@ Nodejs开发多了的时候，就会发现有好多常用的软件包值得推�
 ### 2、基础包
 
 * [lodash](https://github.com/lodash/lodash): 一款JS库，封装了很多有用的JS API
+* [ramda](https://github.com/ramda/ramda): lodash的替代库，函数式编程实践的极佳工具库
 * [co](https://github.com/tj/co): 是一个能够接受一个generator，并且自动执行generator内部的逻辑的软件库。
-* [moment](https://github.com/moment/moment): 一个轻量级的JS日期库，用于分析、校验、操作和格式化日期
+* [moment](https://github.com/moment/moment): 一个重量级的JS日期库，用于分析、校验、操作和格式化日期
+* [date-fns](https://github.com/date-fns/date-fns): moment替代的绝佳工具库，体积比moment较少了将近4倍，如果功能用的更少的话，可以试试dayjs(6.6K)
 * [chokidar](https://github.com/paulmillr/chokidar): 一款软件包优雅地封装了Nodejs的`fs.watch` / `fs.watchFile` / `fsevents`方法
 * [bluebird](https://github.com/petkaantonov/bluebird): bluebird是一个功能齐全的promise库, 它专注于创新的特性和性能
 * [through2](https://github.com/rvagg/through2): 一款对Node streams.Transform (Streams2)封装的软件包，方便创建transform流。
@@ -50,6 +52,7 @@ Nodejs开发多了的时候，就会发现有好多常用的软件包值得推�
 * [Sequelize](https://github.com/sequelize/sequelize): Sequelize是一个基于promise的关系型数据库ORM框架，这个库完全采用JavaScript开发并且能够用在Node.JS环境中，易于使用，支持`Postgres`, `MySQL`, `SQLite` 和 `Microsoft SQL Server`数据库(感谢[CW木子](https://juejin.im/user/57a358dc8ac247005f16735b)提供)
 * [lru-cache](https://github.com/isaacs/node-lru-cache): 一款可以快速删除最近使用过的条目的cache工具包(LRU Cache是一个Cache置换算法，含义是“最近最少使用”，当Cache满（没有空闲的cache块）时，把满足“最近最少使用”的数据从Cache中置换出去，并且保证Cache中第一个数据是最近刚刚访问的。由“局部性原理”，这样的数据更有可能被接下来的程序访问)。
 * [levelup](https://github.com/level/levelup): 这是一款简单的key-value存储器。由Google开发。
+* [node-cache](https://github.com/ptarjan/node-cache/): 内存缓存数据的工具库，适合单台机器部署的数据共享
 
 ### 6、辅助
 * [Chance](https://github.com/chancejs/chancejs): Javascript的随机生成器辅助工具
@@ -82,16 +85,12 @@ $ node example/parse.js -x 3 -y 4 -n5 -abc --beep=boop foo bar baz
 ```
 * [yeast](https://github.com/unshiftio/yeast): 该工具包用来生成一个唯一的ID，与uuid不大一样。socket.io使用它来将时间戳生成唯一的字符串。
 * [rc](https://github.com/dominictarr/rc): 该工具包可以为你的项目加载对应的配置，如果按照他们的规则来的话。查找比如eslintrc这种类似的文件
-
+* [rimraf](https://github.com/isaacs/rimraf): nodejs下执行命令`rm -rf`的工具库
+* [nodemailer](https://github.com/nodemailer/nodemailer): nodejs下发邮件客户端
+* [jsonwebtoken](https://github.com/auth0/node-jsonwebtoken): nodejs下JsonWebToken实现的工具库
 
 ### 7、HTTP客户端
 * [axios](https://github.com/mzabriskie/axios)：一款基于Promise API 的HTTP客户端
-* [request](https://github.com/request/request): 一款简化版的HTTP客户端
+* [request](https://github.com/request/request): 一款简化版的HTTP客户端(作者已经弃用)
+* [r2](https://github.com/mikeal/r2): request作者打造的另外一个轻量级，Es6语法的HTTP客户端（66KB）
 * [request-promise](https://github.com/request/request-promise): 一款基于Bluebird的Promise API的HTTP客户端，对`request`的再封装。
-
-
-
-
-
-
-
