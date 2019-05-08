@@ -88,6 +88,7 @@ $ node example/parse.js -x 3 -y 4 -n5 -abc --beep=boop foo bar baz
 * [rimraf](https://github.com/isaacs/rimraf): nodejs下执行命令`rm -rf`的工具库
 * [nodemailer](https://github.com/nodemailer/nodemailer): nodejs下发邮件客户端
 * [jsonwebtoken](https://github.com/auth0/node-jsonwebtoken): nodejs下JsonWebToken实现的工具库
+* [jsonata](https://github.com/jsonata-js/jsonata): 该工具有点类似于lodash.get的方法，可以帮你拿到在对象里面指定路径的值
 
 ### 7、HTTP客户端
 * [axios](https://github.com/mzabriskie/axios)：一款基于Promise API 的HTTP客户端
