@@ -89,6 +89,8 @@ $ node example/parse.js -x 3 -y 4 -n5 -abc --beep=boop foo bar baz
 * [nodemailer](https://github.com/nodemailer/nodemailer): nodejs下发邮件客户端
 * [jsonwebtoken](https://github.com/auth0/node-jsonwebtoken): nodejs下JsonWebToken实现的工具库
 * [jsonata](https://github.com/jsonata-js/jsonata): 该工具有点类似于lodash.get的方法，可以帮你拿到在对象里面指定路径的值
+* [node-clinic](https://github.com/nearform/node-clinic)：该工具用来诊断分析nodejs的性能问题
+* [Espree](https://github.com/eslint/espree)：可以用该工具来分析代码是否都已经转译成ES5标准的，特别适合在前端代码打包之后的判断，因为之前遇到过依赖的第三方包没有编译成Es5标准，导致设备端兼容性问题出现！
 
 ### 7、HTTP客户端
 * [axios](https://github.com/mzabriskie/axios)：一款基于Promise API 的HTTP客户端
