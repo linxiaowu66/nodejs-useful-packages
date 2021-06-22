@@ -53,6 +53,8 @@ Nodejs开发多了的时候，就会发现有好多常用的软件包值得推�
 * [lru-cache](https://github.com/isaacs/node-lru-cache): 一款可以快速删除最近使用过的条目的cache工具包(LRU Cache是一个Cache置换算法，含义是“最近最少使用”，当Cache满（没有空闲的cache块）时，把满足“最近最少使用”的数据从Cache中置换出去，并且保证Cache中第一个数据是最近刚刚访问的。由“局部性原理”，这样的数据更有可能被接下来的程序访问)。
 * [levelup](https://github.com/level/levelup): 这是一款简单的key-value存储器。由Google开发。
 * [node-cache](https://github.com/ptarjan/node-cache/): 内存缓存数据的工具库，适合单台机器部署的数据共享
+* [typeorm](https://github.com/typeorm/typeorm)：一款覆盖多种数据库语言，可以运行在多端的ORM工具库。支持js和typescript语言。
+* [prisma](https://github.com/prisma/prisma)：下一代ORM工具库，更加友好支持typescript，类型检测比typeorm更加安全，而且数据库model的类型文件自动生成，定义数据库更加简单。个人更加推荐这款orm。
 
 ### 6、辅助
 * [Chance](https://github.com/chancejs/chancejs): Javascript的随机生成器辅助工具
